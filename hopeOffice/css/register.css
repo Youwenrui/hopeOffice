@@ -1,0 +1,161 @@
+body{
+	position: relative;
+}
+
+header{
+	height: 80px;
+	width: 1200px;
+	margin: 0 auto;
+}
+header img{
+	margin-top: 15px;
+	
+}
+.bgimg{
+	width: 100%;
+	height: 600px;
+	background: url(../images/loginbg.jpg) no-repeat;
+	background-size: cover;
+}
+.log{
+	height: 380px;
+	width: 300px;
+	position: absolute;
+	top: 200px;
+	right: 220px;
+    background-color: #f96655;
+    color: #fff;
+}
+footer{
+	padding-top: 20px;
+}
+footer , footer a{
+	width: 1200px;
+	margin: 0 auto;
+	color: #989898;
+}
+.about , .footer-contact{
+	text-align: center;
+
+}
+.account p{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+}
+.phone , .password{
+	font-size: 14px;
+	box-sizing:border-box;
+	width: 240px;
+    height: 40px;
+	background-color: #f96655;
+	border: none;
+	color: #fff;
+	border: 1px solid #fff;
+	margin: 10px 35px;
+	padding-left: 20px;
+}
+.yanzheng {
+	font-size: 14px;
+	box-sizing:border-box;
+	width: 140px;
+    height: 40px;
+	background-color: #f96655;
+	border: none;
+	color: #fff;
+	border: 1px solid #fff;
+	margin: 10px 0 0 35px;
+	padding-left: 20px;
+}
+.getCode{
+	height: 40px;
+	width: 96px;
+	color: #fff;
+	background-color: #f96655;
+	border: 1px solid #fff;
+    margin-top: 10px;
+   
+}
+.remember{
+	margin-left: 35px;
+}
+.denglu{
+	box-sizing:border-box;
+	width: 240px;
+	height: 40px;
+	background-color: #fff;
+	color: #e65a51;
+	margin: 10px 0 0 35px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+}
+.last{
+	width: 240px;
+	height: 45px;
+	padding-top: 20px;
+	margin: 0 35px;
+
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+.register{
+	display: none;
+}
+.reg-log{
+	height: 380px;
+	width: 300px;
+	position: absolute;
+	top: 200px;
+	right: 220px;
+    background-color: #fff;
+    color: #fe321a;
+}
+.reg-phone , .reg-password{
+	font-size: 14px;
+	box-sizing:border-box;
+	width: 240px;
+    height: 40px;
+	
+	border: none;
+	
+	border: 1px solid #b3b3b3;
+	margin: 10px 35px;
+	padding-left: 20px;
+}
+.reg-submit{
+	box-sizing: border-box;
+    width: 240px;
+    height: 40px;
+    background-color: #fe321a;
+    color: #fff;
+    margin: 10px 0 0 35px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+}
+.reg-login{
+	padding: 10px 35px;
+
+}
+.reg-login a{
+color: #fe321a;
+}
+.reg-accept{
+	font-size: 14px;
+	box-sizing:border-box;
+	width: 100px;
+    height: 40px;
+	
+	border: none;
+	
+	border: 1px solid #b3b3b3;
+	margin: 10px 35px;
+	padding-left: 20px;
+}

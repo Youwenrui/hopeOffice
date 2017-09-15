@@ -1,0 +1,30 @@
+.page{
+    list-style: none;
+    height: 50px;
+    margin-left: 125px;
+}
+.page>li{
+    float: left;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.page .pageItem{
+ ;
+    margin: 5px;
+}
+.page .pageItemActive{
+  
+    margin: 5px;
+    background-color: #0099FF;
+    color:white;
+}
+.page .pageItem:hover{
+   
+    background-color: #0099FF;
+    color:white;
+}
+.page .pageItemDisable{
+
+    margin: 5px;
+   
+}

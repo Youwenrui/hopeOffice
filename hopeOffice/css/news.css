@@ -1,0 +1,267 @@
+.container-news{
+	width: 1000px;
+	height: 840px;
+	vertical-align: middle;
+	margin: 10px auto;
+	font-size: 14px;
+	
+
+}
+.container-news img{
+	vertical-align: middle;
+}
+.adress span {
+	padding-top: 5px;
+	padding-left: 10px;
+	line-height: 14px;
+}
+.container-1{
+	width: 1000px;
+	margin: 10px auto;
+	height: 810px;
+}
+.news-left{
+	width: 230px;
+	height:128px;
+	border: 1px solid #d2d2d2;
+	float: left;
+}
+.donation-left{
+	width: 230px;
+	height:68px;
+	border: 1px solid #d2d2d2;
+	float: left;
+}
+.news-title{
+	font-size: 16px;
+	width: 208px;
+	border-bottom: 1px solid #dbdbdb;
+	background-color: #f0f0f0;
+	color: #000;
+	height: 30px;
+	padding-left:22px;
+}
+.title-1,.title-2,.title-3,.title-4{
+	width: 186px;
+	margin: 0 auto;
+	border-bottom: 2px solid #d0d0d0;
+	padding-left: 15px;
+	height: 29px;
+	line-height: 29px;
+}
+.title-1{
+	background: url(../images/title1.png) no-repeat left;
+	border-bottom: 2px solid #d22722;
+	color: #d22722;
+
+	vertical-align: middle;
+}
+.title-1 span{
+	padding-top: 5px;
+}
+.title-1 img{
+	margin-left: 120px;
+}
+.title-2 img{
+	margin-left: 120px;
+}
+.title-3 img{
+	margin-left: 120px;
+}
+.title-4 img{
+	margin-left: 120px;
+}
+/*新闻右侧样式*/
+.news-right{
+	float: right;
+	width: 748px;
+	height: 850px;
+	border: 1px solid #d1d1d1;
+}
+.titlelist-1{
+	width: 100%;
+	height: 30px;
+	color: #d22722;
+	border-bottom: 1px solid #dbdbdb;
+	background-color: #f0f0f0;
+
+}
+.titlelist-1 span{
+	padding-left: 19px;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+
+.news-right ul li{
+	width: 710px;
+	/*height: 40px;*/
+	border-bottom: 1px dashed #d0d0d0;
+	margin: 0 auto;
+	background: url(../images/list.png) no-repeat left 3px center;
+	line-height: 40px;
+    overflow: hidden;
+    padding-left: 15px;
+}
+.datetime{
+	float: right;
+	padding-right: 20px;
+}
+.three{
+	padding-left: 15px;
+}
+/*新闻正文样式*/
+.content-title{
+	margin-top: 10px;
+	width: 100%;
+    height: 22px;
+    
+    text-align: center;
+    color: #e8a4a2;
+    font-size: 20px;
+}
+#message{
+	width: 100%;
+	height: 30px;
+	margin-top: 20px;
+	background: url(../images/title-bg.png);
+	line-height: 30px;
+}
+#message p{
+	width: 470px;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #535353;
+}
+.where , .many{
+	padding-left: 45px;
+}
+.text{
+	padding-top: 20px;
+	font-size: 16px;
+	line-height: 35px;
+	text-align: left;
+	text-indent:2em;
+}
+
+.text-img{
+	width: 500px;
+	margin: 0 auto;
+	
+}
+
+
+/*联系我们部分*/
+.us-container{
+	height: 800px;
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+
+.location{
+	height: 120px;
+	padding: 10px 10px;
+	line-height: 30px;
+}
+.location h2{
+	font-weight: normal;
+	font-size: 16px;
+}
+.location span{
+	padding-left: 15px;
+}
+.phone{
+    line-height: 30px;
+	height: 320px;
+	padding: 20px 10px;
+}
+.phone h3{
+	font-weight: normal;
+	font-size: 16px;
+
+}
+.titlelist-2{
+	padding: 20px 20px;
+}
+.default{
+	background: url(../images/mouseon.png) no-repeat center;
+    border-bottom: 2px solid #d22722;
+    color: #d22722;
+    width: 186px;
+margin: 0 auto;
+border-bottom: 2px solid #d0d0d0;
+padding-left: 15px;
+height: 29px;
+line-height: 29px;vertical-align: middle;
+}
+/*在线调查样式*/
+
+.p1,.p2,.p3{
+	color:  #808080;
+	padding: 15px 0;
+}
+.one{
+	height: 300px;
+	width: 700px;
+	margin: 0 auto;
+	border-bottom: 1px dashed #b3b3b3;
+
+}
+.account{
+	color:  #808080;
+	margin: -90px 205px;
+}
+.clickin{
+	height: 60px;
+	margin-top: 135px;
+	width: 700px;
+	border-bottom: 1px dashed #b3b3b3;
+
+}
+.clickin span{
+	padding-left: 50px;
+	color: #808080;
+}
+.scene{
+	height: 135px;
+	border-bottom: 1px dashed #b3b3b3;
+}
+.scene img{
+	margin-top: 10px;
+}
+.sceneway{
+	color:  #808080;
+	margin: -130px 205px;
+    width: 450px;
+}
+.sceneway p{
+	padding-bottom: 10px;
+}
+.messages{
+	margin-top: 140px;
+
+}
+.messages span{
+	padding-left:50px;
+	color: #808080;
+}
+.reminder{
+	width: 700px;
+	color: #808080;
+	padding-top: 30px;
+}
+.about-right{
+	float: right;
+    width: 748px;
+    height: 3333px;
+    border: 1px solid #d1d1d1;
+}
+
+
+.ask-right {
+    float: right;
+    width: 748px;
+    height: 850px;
+    border: 1px solid #d1d1d1;
+}

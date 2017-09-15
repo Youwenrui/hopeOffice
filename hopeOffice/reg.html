@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录注册</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<script type="text/javascript" src="js/login.js"></script>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+   <header>
+      <a href="index.html"><img src="images/logoin.png"></a>
+  </header>
+  <div class="bgimg">
+  </div>
+  <div class="reg-log">
+      <div class="account"><p>注册</p></div>
+      <input class="reg-phone" type="text" placeholder="手机号码">
+      <input class="reg-accept" type="text" placeholder="验证码" ><img src="images/accept.png">
+      <input class="reg-password" type="password" placeholder="密码">
+      <input class="reg-password" type="password" placeholder="密码">  
+    <div class="reg-submit">注册</div>
+     <div class="reg-login"><a href="register.html">登录</a></div>
+    </div>
+   
+<footer>
+  <div class="about">
+    <a href="#">关于我们</a>
+    |
+    <a href="#">留言板</a>
+    |
+    <a href="#">合作伙伴</a>
+    |
+    <a href="#">友情链接</a>
+    |
+    <a href="#">捐助指南</a>
+    |
+    <a href="#">爱心榜</a>
+    |
+    <a href="#">联系我们</a>
+</div>
+<div class="footer-contact">
+    <p>江苏希望工程捐助中心 南京市北京西路70号（省委大院）10号楼104室，电话：86552199、86906069、83393594,邮编:210013</p>
+    <p>江苏希望工程网　　江苏省希望工程办公室版权所有 </p>
+    <p>技术支持：南京品佳科技 </p>
+    <p>事证字132000000503</p>
+</div>
+</footer>
+</body>
+<script>
+	$(function(){
+      login.init();
+  });
+    $(".left").toggle(function(){
+        $(".log").hide();
+    },function(){
+        $(".register").show();
+    })
+
+</script>
+</html> 

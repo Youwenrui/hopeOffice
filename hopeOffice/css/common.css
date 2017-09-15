@@ -1,0 +1,131 @@
+/*公共样式*/
+
+header{
+	width: 100%;
+	height: 24px;
+}
+.w1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+.w1000 img{
+    vertical-align:middle
+}
+.p-distance{
+    padding-left: 5px;
+}
+.img-distance{
+    margin-left: 8px;
+}
+.head-nav{
+	float: right;
+}
+.head-nav li{
+	float: left;
+	width: 70px;
+	text-align: center;
+	padding-left: 5px;
+	background: url(../images/fenge2.png) no-repeat right;
+}
+.head-img{
+	background: url(../images/head-img.jpg) center;
+	
+	height: 160px;
+
+}
+.division{
+	margin-top: 15px;
+	width: 100%;
+	height: 21px;
+	background-color: #f0f0f0;
+	border-bottom: 1px solid #d0d0d0;
+}
+.smalltit{
+	text-indent: 1rem;
+	line-height: 24px;
+}
+.titlelist-2 p{
+	text-indent: 3rem;
+	line-height: 24px;
+}
+.futitle-1 img{
+	margin-left: 85px;
+}
+.futitle-2 img{
+	margin-left: 85px;
+}
+.futitle-3 img{
+	margin-left: 85px;
+}
+.futitle-4 img{
+	margin-left: 85px;
+}
+.futitle-4{
+	background: url(../images/more3.png) no-repeat right ;
+	width: 186px;
+	margin: 0 auto;
+	border-bottom: 1px solid #d0d0d0;
+	padding-left: 15px;
+	height: 29px;
+	line-height: 29px;
+	cursor: pointer;
+}
+.futitle-1{
+	background: url(../images/mouseon.png) no-repeat center;
+	border-bottom: 1px solid #d22722;
+	color: #d22722;
+    cursor: pointer;
+	vertical-align: middle;
+}
+.futitle-1 span{
+	padding-top: 5px;
+}
+.about-left{
+	width: 230px;
+    height: 160px;
+    border: 1px solid #d2d2d2;
+    float: left;
+}
+.about-right{
+    float: right;
+     width: 748px;
+     height: 3333px;
+     border: 1px solid #d1d1d1;
+}
+.nobg{
+	background: none;
+}
+
+}
+.ask-right{
+	float: right;
+width: 748px;
+height: 850px;
+border: 1px solid #d1d1d1;
+}
+.ask-right ul li{
+    border-bottom: 1px solid #d0d0d0;
+    padding-left: 10px;
+    cursor: pointer;
+    line-height: 40px;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+.answer{   
+    height: 53px;
+    color: #959595;
+    border-top: 1.5px #d22722 solid;
+    width: 700px;
+    margin: 0 auto;
+    
+}
+.askcontent{
+	background: url(../images/ask1.png) no-repeat left;
+	padding-left: 30px;
+	 box-sizing:border-box;
+}
+.after{
+	background: url(../images/after.png) no-repeat left !important;
+	padding-left: 30px;
+	 box-sizing:border-box;
+}

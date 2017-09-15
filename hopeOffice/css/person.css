@@ -1,0 +1,60 @@
+.msg{
+	width: 100%;
+}
+.touxiang{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.detail{
+	padding-left: 200px;
+	padding-top: 20px;
+}
+.personmsg{
+	width: 1000px;
+    height: 170px;
+    vertical-align: middle;
+    margin: 10px auto;
+    font-size: 14px;
+}
+.person-left{
+	width: 230px;
+    height: 160px;
+    border: 2px solid #d2d2d2;
+    float: left;
+}
+.person-right ul li{
+	width: 710px;
+    height: 40px;
+   
+    margin: 0 auto;
+ 
+    line-height: 40px;
+    overflow: hidden;
+    padding-left: 50px;
+}
+.person-right{
+	float: right;
+    width: 748px;
+    height: 808px;
+    border: 2px solid #d1d1d1;
+}
+.addmsg li label{
+	display: inline-block;
+    width: 64px;
+}
+.update p{
+	width: 100px;
+	height: 30px;
+	background-color: #d22722;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	margin: 20px 165px;
+}
+.w200{
+	width: 200px;
+	padding-left: 5px;
+	height: 20px;
+}
+
